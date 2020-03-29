@@ -1,3 +1,10 @@
+#function dimsim:render/4dperspective
+
+
+
+
+
+
 execute store result entity @s Pos[0] double 0.000000625 run scoreboard players get @s x
 execute store result entity @s Pos[1] double 0.000000625 run scoreboard players get @s y
 execute store result entity @s Pos[2] double 0.000000625 run scoreboard players get @s z
