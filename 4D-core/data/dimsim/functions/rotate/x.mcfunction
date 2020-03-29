@@ -17,7 +17,7 @@ scoreboard players operation t3 calculations += result calculations
 
 
 
-# matrix z (ysin-zcos)
+# matrix z (ysin+zcos)
 scoreboard players operation t1 calculations = @s y
 scoreboard players operation t2 calculations = sin calculations
 function dimsim:math/skmultiplication
