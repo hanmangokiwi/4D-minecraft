@@ -1,0 +1,1 @@
+execute unless block ~ ~ ~ minecraft:air run function dimsim:initial/placeblock
