@@ -1,9 +1,6 @@
-kill @e[type=armor_stand,tag=standdone]
+execute as @e[type=armor_stand,tag=displaystand,tag=!newstand] run function dimsim:render/stand
 
 
 
-replaceitem entity @e[type=armor_stand,tag=displaystand,tag=!standdone] armor.head minecraft:diamond_block
-tag @e[type=armor_stand,tag=displaystand,tag=!standdone] add standdone
 
-
-execute as @e[type=area_effect_cloud,tag=point] at @s run function dimsim:render/threedimensions
+execute as @e[type=area_effect_cloud,tag=dot] at @s run function dimsim:render/threedimensions
