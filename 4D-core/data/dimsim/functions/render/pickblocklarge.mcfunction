@@ -1,0 +1,16 @@
+execute at @s[scores={blocktype=1}] run setblock ~0.5 ~20 ~0.5 minecraft:white_wool
+execute at @s[scores={blocktype=2}] run setblock ~0.5 ~20 ~0.5 minecraft:orange_wool
+execute at @s[scores={blocktype=3}] run setblock ~0.5 ~20 ~0.5 minecraft:magenta_wool
+execute at @s[scores={blocktype=4}] run setblock ~0.5 ~20 ~0.5 minecraft:light_blue_wool
+execute at @s[scores={blocktype=5}] run setblock ~0.5 ~20 ~0.5 minecraft:yellow_wool
+execute at @s[scores={blocktype=6}] run setblock ~0.5 ~20 ~0.5 minecraft:lime_wool
+execute at @s[scores={blocktype=7}] run setblock ~0.5 ~20 ~0.5 minecraft:pink_wool
+execute at @s[scores={blocktype=8}] run setblock ~0.5 ~20 ~0.5 minecraft:gray_wool
+execute at @s[scores={blocktype=9}] run setblock ~0.5 ~20 ~0.5 minecraft:light_gray_wool
+execute at @s[scores={blocktype=10}] run setblock ~0.5 ~20 ~0.5 minecraft:cyan_wool
+execute at @s[scores={blocktype=11}] run setblock ~0.5 ~20 ~0.5 minecraft:purple_wool
+execute at @s[scores={blocktype=12}] run setblock ~0.5 ~20 ~0.5 minecraft:blue_wool
+execute at @s[scores={blocktype=13}] run setblock ~0.5 ~20 ~0.5 minecraft:brown_wool
+execute at @s[scores={blocktype=14}] run setblock ~0.5 ~20 ~0.5 minecraft:green_wool
+execute at @s[scores={blocktype=15}] run setblock ~0.5 ~20 ~0.5 minecraft:red_wool
+execute at @s[scores={blocktype=16}] run setblock ~0.5 ~20 ~0.5 minecraft:black_wool

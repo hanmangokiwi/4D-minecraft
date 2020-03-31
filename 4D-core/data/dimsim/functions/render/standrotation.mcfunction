@@ -1,0 +1,1 @@
+execute as @e[type=area_effect_cloud,tag=point0] at @s run function dimsim:render/grabdir

@@ -1,0 +1,16 @@
+execute at @s[scores={blocktype=1}] run particle dust 1.000 1.000 1.000 1 ~0.5 ~20 ~0.5 0.000 0.000 0.000 0 1 force
+execute at @s[scores={blocktype=2}] run particle dust 1.000 0.702 0.000 1 ~0.5 ~20 ~0.5 0.000 0.000 0.000 0 1 force
+execute at @s[scores={blocktype=3}] run particle dust 0.753 0.180 1.000 1 ~0.5 ~20 ~0.5 0.000 0.000 0.000 0 1 force
+execute at @s[scores={blocktype=4}] run particle dust 0.000 0.969 1.000 1 ~0.5 ~20 ~0.5 0.000 0.000 0.000 0 1 force
+execute at @s[scores={blocktype=5}] run particle dust 0.969 1.000 0.000 1 ~0.5 ~20 ~0.5 0.000 0.000 0.000 0 1 force
+execute at @s[scores={blocktype=6}] run particle dust 0.035 1.000 0.000 1 ~0.5 ~20 ~0.5 0.000 0.000 0.000 0 1 force
+execute at @s[scores={blocktype=7}] run particle dust 0.690 0.071 1.000 1 ~0.5 ~20 ~0.5 0.000 0.000 0.000 0 1 force
+execute at @s[scores={blocktype=8}] run particle dust 0.420 0.420 0.420 1 ~0.5 ~20 ~0.5 0.000 0.000 0.000 0 1 force
+execute at @s[scores={blocktype=9}] run particle dust 0.812 0.812 0.812 1 ~0.5 ~20 ~0.5 0.000 0.000 0.000 0 1 force
+execute at @s[scores={blocktype=10}] run particle dust 0.133 0.620 0.902 1 ~0.5 ~20 ~0.5 0.000 0.000 0.000 0 1 force
+execute at @s[scores={blocktype=11}] run particle dust 0.486 0.208 0.902 1 ~0.5 ~20 ~0.5 0.000 0.000 0.000 0 1 force
+execute at @s[scores={blocktype=12}] run particle dust 0.000 0.122 0.902 1 ~0.5 ~20 ~0.5 0.000 0.000 0.000 0 1 force
+execute at @s[scores={blocktype=13}] run particle dust 0.639 0.522 0.133 1 ~0.5 ~20 ~0.5 0.000 0.000 0.000 0 1 force
+execute at @s[scores={blocktype=14}] run particle dust 0.000 0.639 0.169 1 ~0.5 ~20 ~0.5 0.000 0.000 0.000 0 1 force
+execute at @s[scores={blocktype=15}] run particle dust 1.000 0.000 0.000 1 ~0.5 ~20 ~0.5 0.000 0.000 0.000 0 1 force
+execute at @s[scores={blocktype=16}] run particle dust 0.000 0.000 0.000 1 ~0.5 ~20 ~0.5 0.000 0.000 0.000 0 1 force

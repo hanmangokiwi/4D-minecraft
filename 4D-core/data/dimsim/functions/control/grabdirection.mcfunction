@@ -11,6 +11,9 @@ execute if entity @e[type=area_effect_cloud,tag=thisone,tag=back] run scoreboard
 execute if entity @e[type=area_effect_cloud,tag=thisone,tag=up] run scoreboard players set @s direction 5
 execute if entity @e[type=area_effect_cloud,tag=thisone,tag=down] run scoreboard players set @s direction 6
 
+
+execute unless score @s direction matches 0 if score render calculations matches 2 run particle dust 1.000 1.000 1.000 1 ~ ~20 ~ 0.000 0.000 0.000 0 10000 force
+
 execute unless score @s direction matches 0 run tp @s @e[type=area_effect_cloud,tag=playermarker,limit=1,sort=nearest]
 
 execute if score @s direction matches 0 run tp @e[type=area_effect_cloud,tag=playermarker,limit=1,sort=nearest] @s

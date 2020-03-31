@@ -1,8 +1,10 @@
+scoreboard players reset * constant
 scoreboard players set -360000 constant -360000
 scoreboard players set -1 constant -1
 scoreboard players set 0 constant 0
 scoreboard players set 1 constant 1
 scoreboard players set 2 constant 2
+scoreboard players set 3 constant 3
 scoreboard players set 10 constant 10
 scoreboard players set 100 constant 100
 scoreboard players set 1000 constant 1000
@@ -13,3 +15,8 @@ scoreboard players set 360000 constant 360000
 # this is a 1. Everything is multiplied by a million for 6 decimals cause minecraft likes its ints
 scoreboard players set 1000000 constant 1000000
 #
+
+
+scoreboard players set perspectivescale constant 650000
+scoreboard players set scalefactor constant 28
+scoreboard players set distance constant 324000000

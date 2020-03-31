@@ -1,22 +1,24 @@
-#function dimsim:render/4dperspective
+scoreboard players operation @s xdisplay = @s x
+scoreboard players operation @s ydisplay = @s y
+scoreboard players operation @s zdisplay = @s z
+
+
+
+
+
+execute if score perspective calculations matches 0 run function dimsim:render/4dperspective
 
 
 
 
 
 
-execute store result entity @s Pos[0] double 0.000000625 run scoreboard players get @s x
-execute store result entity @s Pos[1] double 0.000000625 run scoreboard players get @s y
-execute store result entity @s Pos[2] double 0.000000625 run scoreboard players get @s z
 
 
 
 
 
 
-
-
-
-execute at @s run summon armor_stand ~0.5 ~20 ~0.5 {Pose:{Head:[0.0f,0.0f,0.1f]},Invisible:1,Marker:1,NoGravity:1,Tags:[displaystand,newstand]}
-scoreboard players operation @e[type=armor_stand,tag=newstand] blocktype = @s blocktype
-execute as @e[type=armor_stand,tag=newstand] at @s run function dimsim:render/newstand
+execute if score render calculations matches 0 run function dimsim:render/standmethod
+execute if score render calculations matches 1 run function dimsim:render/blockmethod
+execute if score render calculations matches 2 run function dimsim:render/particlemethod
